@@ -10,6 +10,7 @@ public class Pessoa {
         this.codpessoa = codpessoa;
         this.nome = nome;
         this.cpf = cpf;
+        this.idade = idade;
     }
 
     public int getIdade() {
