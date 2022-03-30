@@ -5,6 +5,7 @@ public class Pessoa {
     private String nome;
     private String cpf;
     private int idade;
+    private String endereco;
 
     public Pessoa(int codpessoa, String nome, String cpf, int idade) {
         this.codpessoa = codpessoa;
