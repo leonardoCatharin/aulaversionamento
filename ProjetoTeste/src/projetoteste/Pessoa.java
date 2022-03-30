@@ -5,12 +5,14 @@ public class Pessoa {
     private String nome;
     private String cpf;
     private int idade;
+    private int rg;
 
-    public Pessoa(int codpessoa, String nome, String cpf, int idade) {
+    public Pessoa(int codpessoa, String nome, String cpf, int idade, int rg) {
         this.codpessoa = codpessoa;
         this.nome = nome;
         this.cpf = cpf;
         this.idade = idade;
+        this.rg = rg;
     }
 
     public int getIdade() {
